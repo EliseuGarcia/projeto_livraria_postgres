@@ -21,7 +21,6 @@ class CategoriaDAO:
             categorias.append(cat)
         cursor.close()
         conexao.close()
-        print(categorias)
 
         return categorias
 

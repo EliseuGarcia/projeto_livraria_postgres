@@ -4,8 +4,7 @@ import psycopg2
 class ConexaoFactory:
 
     def get_conexao(self):
-        return
-        psycopg2.connect(
+        return psycopg2.connect(
             host='berry.db.elephantsql.com',
             database='srwstygg',
             user='srwstygg',
